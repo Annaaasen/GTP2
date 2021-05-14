@@ -39,7 +39,7 @@ for i in range(1, 21):
         unwanted.extract()
         unwanted = soup1.find(class_ = 'c-bibliographic-information')
         unwanted.extract()
-        # unwanted = soup1.find(class_ = 'c-article-section')
+        # unwanted = soup1.find(clanss_ = 'c-article-section')
         unwanted.extract()
         # content = soup1.find(class_ ='c-article-section__content')
         content = soup1.find_all('div', class_ = 'c-article-section__content')
