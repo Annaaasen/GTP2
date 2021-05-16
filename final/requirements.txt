@@ -1,0 +1,6 @@
+aitextgen
+pandas
+numpy
+matplotlib.pyplot
+requests
+bs4
